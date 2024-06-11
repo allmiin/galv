@@ -56,6 +56,7 @@ nav ul li a img {
     height: 100%;
     z-index: 1;
     overflow: hidden;
+    pointer-events: none; /* Ensure the video doesn't block interactions */
 }
 
 .video-background iframe {
@@ -64,7 +65,7 @@ nav ul li a img {
     position: absolute;
     top: 0;
     left: 0;
-    pointer-events: none;
+    pointer-events: none; /* Ensure the video doesn't block interactions */
 }
 
 .overlay-box {
@@ -91,5 +92,4 @@ nav ul li a img {
 
 .overlay-box p {
     margin: 0;
-}
 }
